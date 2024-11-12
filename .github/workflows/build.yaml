@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           file: Dockerfile
-          tags: ${{ secrets.W_USERNAME }}/pyinc:30.0.0
+          tags: ${{ secrets.M_USERNAME }}/pyinc:40.0.0
           push: true
 
       - name: Logout from Docker Hub
